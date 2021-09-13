@@ -1,0 +1,123 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 247px;
+  padding-right: 247px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.01) 0%,
+    rgba(0, 0, 0, 0.2) 109.5%
+  );
+}
+
+.top {
+  background-image: url(./images/HeroBG-min.jpg);
+  min-height: 673px;
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu li {
+  display: inline;
+  align-content: center;
+  justify-content: center;
+  list-style: none;
+  color: white;
+  padding: 18px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo img {
+  height: 66px;
+  width: 289px;
+}
+
+.header .logo {
+  display: flex;
+  margin: 0;
+  /* background-color: aqua; */
+  justify-content: flex-start;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.infobox {
+  position: absolute;
+  left: 955px;
+  top: 290px;
+  height: 270px;
+  width: 475px;
+  background: rgba(0, 176, 232, 0.8);
+  border: 1px solid #9f9f9f;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px 0px 0px 15px;
+  padding: 34px;
+}
+
+.square1 {
+  position: absolute;
+  width: 121.5px;
+  height: 135px;
+  left: 1430px;
+  top: 290px;
+
+  background: #333333;
+  border: 1px solid #9f9f9f;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.square2 {
+  position: absolute;
+  width: 121.5px;
+  height: 135px;
+  left: 1551px;
+  top: 290px;
+
+  background: #333333;
+  border: 1px solid #9f9f9f;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 15px 0px 0px;
+}
+
+.square3 {
+  position: absolute;
+  width: 121.5px;
+  height: 135px;
+  left: 1430px;
+  top: 425px;
+
+  background: #333333;
+  border: 1px solid #9f9f9f;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.square4 {
+  position: absolute;
+  width: 121.5px;
+  height: 135px;
+  left: 1551px;
+  top: 425px;
+
+  background: #333333;
+  border: 1px solid #9f9f9f;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 15px 0px;
+}
