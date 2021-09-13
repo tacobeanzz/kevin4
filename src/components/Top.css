@@ -1,63 +1,15 @@
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 247px;
-  padding-right: 247px;
-  padding-top: 17px;
-  padding-bottom: 17px;
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.01) 0%,
-    rgba(0, 0, 0, 0.2) 109.5%
-  );
-}
-
 .top {
   background-image: url(./images/HeroBG-min.jpg);
-  min-height: 673px;
-  background-position: inherit;
+  height: 650px;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.menu {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.menu li {
-  display: inline;
-  align-content: center;
-  justify-content: center;
-  list-style: none;
-  color: white;
-  padding: 18px;
-  font-family: Roboto;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 28px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.logo img {
-  height: 66px;
-  width: 289px;
-}
-
-.header .logo {
-  display: flex;
-  margin: 0;
-  justify-content: flex-start;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .infobox {
   display: flex;
   justify-content: flex-end;
-  margin-right: 490px;
-  margin-top: 170px;
+  margin-right: 390px;
 }
 
 .leftsquare {
@@ -72,6 +24,7 @@
   padding: 34px;
   color: #fdfdfd;
   flex-direction: column;
+  margin-top: 260px;
 }
 
 .leftsquare h1 {
@@ -90,6 +43,7 @@
   display: grid;
   grid-template-columns: 121px 0px;
   color: #fdfdfd;
+  margin-top: 260px;
 }
 
 .square1 {
@@ -102,6 +56,12 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   align-items: center;
   justify-content: center;
+  transition: all 0.4s ease-in-out;
+}
+
+.square1:hover {
+  background: rgb(0, 232, 174);
+  transition: all 0.4s ease-in-out;
 }
 
 .square2 {
