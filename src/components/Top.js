@@ -20,13 +20,17 @@ const Top = () => {
         </div>
       </div>
       <div className="infobox">
-        <h1>Text</h1>
-      </div>
-      <div className="squares">
-        <div className="square1"></div>
-        <div className="square2"></div>
-        <div className="square3"></div>
-        <div className="square4"></div>
+        <div className="leftsquare">
+          <h1>Text</h1>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <div className="squares">
+          <div className="square1">1</div>
+          <div className="square2">2</div>
+          <div className="square3">3</div>
+          <div className="square4">4</div>
+        </div>
       </div>
     </div>
   );
