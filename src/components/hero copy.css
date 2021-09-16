@@ -1,0 +1,43 @@
+.heroMain {
+  height: 550px;
+  width: auto;
+  background-color: #333333;
+}
+
+.bubbles {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.bubbles svg {
+  margin-left: 2em;
+  margin-right: 2em;
+  z-index: 1;
+}
+
+.circles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -1.5rem;
+  /* padding-left: 3.2rem;
+  padding-right: 10rem; */
+  align-items: center;
+}
+
+.circles svg {
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.circle1 {
+  padding-left: 10rem;
+}
+.circle2 {
+  padding-left: 10rem;
+}
+.circle3 {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
