@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 10px;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px #0000003a;
+}
+
+.card h1 {
+    font-size: 1em;
+    padding-top: 0.5rem;
+}
+
+.card p {
+    padding-top: 0.5em;
+}
