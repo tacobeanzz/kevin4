@@ -12,7 +12,7 @@ export const Card = (props) => {
 
           <div class="testimonial__details">
             <div class="testimonial__img">
-              <img src={profileimg1} alt="Profile Picture" />
+              <img src={profileimg1} alt="Profile" />
             </div>
             <div class="testimonial__info">
               <h4 class="testimonial__name">{props.name}</h4>
