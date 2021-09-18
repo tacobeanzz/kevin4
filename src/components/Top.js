@@ -9,6 +9,9 @@ const Top = () => {
         <div className="leftsquare">
           <h1>Text</h1>
           <p>Lorem ipsum dolor sit amet.</p>
+          <div className="contactbtn">
+            <h1>Contact Me</h1>
+          </div>
         </div>
 
         <div className="squares">

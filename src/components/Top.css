@@ -102,6 +102,22 @@
   border-radius: 0px 0px 15px 0px;
 }
 
+.contactbtn {
+  display: flex;
+  background: #0073a5;
+  border-radius: 15px;
+  padding: 5px;
+  justify-content: center;
+  height: 32px;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.contactbtn:hover {
+  background: #333333;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 480px) {
   .infobox {
     display: none;
