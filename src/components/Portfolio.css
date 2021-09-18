@@ -1,0 +1,40 @@
+.portfolio {
+  background: #333333;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  width: 100%;
+  color: #fdfdfd;
+}
+
+.portfolio img {
+  width: 730px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 220px;
+  padding-right: 110px;
+  padding-top: 25px;
+}
+
+.information h1 {
+  padding-bottom: 20px;
+  font-size: 3rem;
+  text-align: left;
+  font-weight: 400;
+}
+
+.information p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+br {
+  display: block;
+  margin: 10px 0;
+}
