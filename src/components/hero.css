@@ -3,10 +3,9 @@
   height: auto;
   width: auto;
   background-color: #333333;
-  justify-content: center;
+  justify-content: space-around;
   padding-top: 2em;
   padding-bottom: 2em;
-  align-items: stretch;
 }
 
 @media screen and (max-width: 480px) {
