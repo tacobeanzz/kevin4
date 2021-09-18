@@ -1,16 +1,26 @@
 import React from "react";
+import { Card } from "./Card";
 import "./hero.css";
-import ReviewCard from "./ReviewCard";
+// import ReviewCard from "./ReviewCard";
 
 const hero = () => {
   return (
     <div className="heroMain">
-      <ReviewCard
-        name="Jess"
-        revcontent="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem aspernatur perspiciatis consequatur tempore ut dolorum sequi harum nulla cumque perferendis?ui harum nulla cumque perferendis?ui harum nulla cumque perferendis?ui harum nulla cumque perferendis?ui harum nulla cumque perferendis?ui harum nulla cumque perferendis?ui harum nulla cumque perferendis?ui harum nulla cumque perferendis?"
+      <Card
+        name="Test"
+        job="Software Engineer"
+        content="Lorem ipsum, dolor sitquam molestiae assumenda unde, vitae exercitationem?"
       />
-      <ReviewCard name="Jimmy" revcontent="This is a test" />
-      <ReviewCard name="Test" revcontent="This is a test" />
+      <Card
+        name="Test"
+        job="Software Engineer"
+        content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam aliquam molestiae assumenda unde, vitae exercitationem?"
+      />
+      <Card
+        name="Test"
+        job="Software Engineer"
+        content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam aliquam molestiae assumenda unde, vitae exercitationem?"
+      />
     </div>
   );
 };
