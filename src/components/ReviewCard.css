@@ -85,3 +85,31 @@
 .quotemark h1 {
   font-size: 3rem;
 }
+
+.card {
+  height: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .revcontent {
+    max-width: 300px;
+    margin-top: -10px;
+  }
+
+  .circle1 {
+    margin-top: -15px;
+    margin-left: 100px;
+  }
+
+  .quotemark {
+    margin-top: 24px;
+  }
+
+  .name {
+    margin-left: 100px;
+  }
+
+  .card {
+    height: 250px;
+  }
+}

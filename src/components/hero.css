@@ -5,3 +5,11 @@
   background-color: #333333;
   justify-content: center;
 }
+
+@media screen and (max-width: 480px) {
+  .heroMain {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+}
