@@ -1,19 +1,87 @@
-.card {
-    display: flex;
-    width: 400px;
-    height: 200px;
-    background: #ffffff;
-    border-radius: 15px;
-    padding: 10px;
-    flex-direction: column;
-    box-shadow: 5px 5px 10px #0000003a;
+/* .card {
+  display: flex;
+  width: 400px;
+  height: 200px;
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 10px;
+  flex-direction: column;
+  box-shadow: 5px 5px 10px #0000003a;
 }
 
 .card h1 {
-    font-size: 1em;
-    padding-top: 0.5rem;
+  font-size: 1em;
+  padding-top: 0.5rem;
 }
 
 .card p {
-    padding-top: 0.5em;
+  padding-top: 0.5em;
+} */
+
+.bubbles {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+  padding-top: 50px;
+}
+
+.bubbles svg {
+  margin-left: 2em;
+  margin-right: 2em;
+  z-index: 1;
+}
+
+.circles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -1.5rem;
+  align-items: center;
+}
+
+.circles svg {
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.circle1 {
+  display: flex;
+  position: relative;
+  right: 178px;
+  top: 5px;
+}
+
+.name {
+  display: flex;
+  position: relative;
+  right: 100px;
+  justify-content: center;
+  bottom: 35px;
+  right: 100px;
+  color: #fdfdfd;
+}
+
+.revcontent {
+  display: flex;
+  position: relative;
+  color: #0d0d0d;
+  bottom: 220px;
+  right: -70px;
+  text-align: left;
+  max-width: 440px;
+  max-height: 60px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.quotemark {
+  position: relative;
+  bottom: 185px;
+  right: -45px;
+  z-index: 2;
+  color: #ea4c89;
+}
+
+.quotemark h1 {
+  font-size: 3rem;
 }
